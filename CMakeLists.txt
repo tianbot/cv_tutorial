@@ -8,7 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
 )
-find_package(OpenCV 3.1 REQUIRED)
+find_package(OpenCV REQUIRED)
 catkin_package()
 include_directories(
   ${catkin_INCLUDE_DIRS}
